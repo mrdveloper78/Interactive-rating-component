@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+body{
+  width: 1440px;
+  background: hsl(216, 12%, 8%);
+  font-family: 'Overpass', sans-seri;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.layout{
+  width: 340px;
+  height: 340px;
+  border-radius: 1.5rem;
+  background: rgba(25,29,39,255);
+  margin: 130px 0;
+}
+
+
+/* =============== Mobile Design ============== */
+
+@media only screen and (max-width:375px) {
+  
+  body{
+    width: 375px;
+  }
+
+  .layout{
+    margin: 0;
+  }
+
+}
